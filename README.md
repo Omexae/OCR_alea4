@@ -12,3 +12,9 @@ $ cd Blacknwhite
 $ make blacknwhite
 $ ./blacknwhite
 ```
+## Segmentation
+```
+$ cd Segmentation
+$ make decoupage
+$ ./decoupage
+```
