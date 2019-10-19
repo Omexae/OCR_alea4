@@ -6,7 +6,7 @@ OCR for EPITA
 $ make xornn
 $ ./xornn {epochs}
 ```
-## Processing
+## Pre-processing
 ```
 $ cd Blacknwhite
 $ make blacknwhite
