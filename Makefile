@@ -10,6 +10,7 @@ SRC_SDL = Xor/pixel/pixel_operations.c Xor/image_manipulation/to_binarize.c Xor/
 all: main
 
 # Main
+SRC = Xor/main.c Xor/image_manipulation/open_image.c Xor/image_manipulation/GTK_functions.c ${SRC_NN} ${SRC_SDL}
 OBJ = ${SRC:.c=.o}
 
 main: ${OBJ}
