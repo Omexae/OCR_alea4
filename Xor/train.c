@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <SDL.h>
-
+#include "SDL/SDL.h"
 #include <string.h>
 #include "pixel/pixel_operations.h"
 #include "image_manipulation/to_binarize.h"
@@ -37,7 +36,7 @@ int main(int argc, char *argv[]){
 
 	printf("Loading Training Set in %s\n", alphabetImage);
 
-	isolateLine(draw_lines(SDL_LoadBMP(alphabetImage)));
+	draw_columns(draw_lines(SDL_LoadBMP(alphabetImage)));
 
 	N = Final_Text.idx;
 
